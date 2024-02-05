@@ -1,0 +1,153 @@
+*
+{
+    margin-top:20px;
+    margin-left:0px;
+    animation-name: ani;
+    animation-duration: 3S;
+    position:relative;
+
+}
+@keyframes ani 
+{
+    0%{color: transparent;}
+    50%{transform:scale(0.1);}
+    100%{color: transparent;}
+}
+
+
+.head
+{
+    display: flex;
+    margin-left:20px;
+    gap: 10px;
+
+
+}
+.cir
+{
+    margin: 0%;
+    border: 3px solid rgb(255, 252, 247);
+    width: 30px; height:30px;
+    background-color: orangered;
+    border-radius:50%;
+}
+.title
+{
+    font-size:22px;
+    margin-left: 10px;   
+    margin-right: 40px;
+}
+.link
+{
+    text-decoration: none;
+    color: rgb(249, 247, 246);
+    margin-left: 80px;  
+    border: 0.2px solid rgb(121, 120, 120);
+    height: 30px;
+    width:auto;
+    padding-left:10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgb(29, 107, 152);
+   
+}
+.link:hover
+{
+    cursor: pointer;
+    background-color: rgb(23, 24, 24);
+    transform: scale(1.1);
+}
+.sec{
+    display: flex;
+}
+.img
+{
+    border-radius: 70%;
+    height: 300px;
+    width: 300px;
+    margin-left:200px;
+}
+aside 
+{
+    margin-left: 500px;
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.aside1
+{
+    text-decoration: none;
+    margin-left: 30px;
+    border: 1px solid rgb(4, 4, 4);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 45%;
+    color: black;
+    background-color: orange;
+}
+.aside1:hover
+{
+    cursor: pointer;
+    background-color: aliceblue;
+    transform: scale(1.3);
+
+
+}
+.aside2
+{
+    text-decoration: none;
+    margin-left: 30px;
+    border: 1px solid rgb(4, 4, 4);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 45%;
+    color: black;
+    background-color: rgb(255, 25, 0);
+
+}
+.aside2:hover
+{
+    cursor: pointer;
+    background-color: aliceblue;
+    transform: scale(1.3);
+}
+.aside3
+{
+    text-decoration: none;
+    margin-left: 30px;
+    border: 1px solid rgb(4, 4, 4);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 45%;
+    color: black;
+    background-color: rgb(16, 185, 219);
+
+}
+.aside3:hover
+{
+    cursor: pointer;
+    background-color: aliceblue;
+    transform: scale(1.3);
+
+}
+footer
+{
+   display: flex;
+   margin-left: 100px;
+   gap: 200px;
+
+
+}
+.mail a
+{
+    text-decoration: none;
+    color: grey;
+}
