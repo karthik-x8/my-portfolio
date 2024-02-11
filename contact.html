@@ -53,7 +53,7 @@
           }).then(function (response) {
               // Handle success or error here
               if (response.ok) {
-                  window.open('msg.html');
+                  window.open('msg.html','_self');
               } else {
                   document.getElementById("msg4").innerHTML = "Form submission failed. Please try again.";
                   console.error('Form submission failed');
